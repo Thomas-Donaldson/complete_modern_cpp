@@ -23,7 +23,6 @@ TEST_CASE( "Section 2 Assignment 1") {
 	}
 
 	SECTION( "Swap" ) {
-
 		Swap(a, b);
 		REQUIRE( *a == 10 );
 		REQUIRE( *b == 5 );
